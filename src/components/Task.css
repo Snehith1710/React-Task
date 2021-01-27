@@ -1,0 +1,59 @@
+body {
+  background-color: white !important ;
+}
+
+.todo-container {
+  width: 35%;
+  margin: 6em 2em;
+  padding: 5px;
+  color: blue;
+  border: 2px solid rgb(36, 110, 194);
+}
+
+.task {
+  padding: 0.3em;
+}
+
+.task button {
+  background: white;
+  margin: 5px 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0.5em;
+}
+
+.create-task input[type="text"] {
+  margin: 2.5em 2em;
+  width: 80%;
+  outline: none;
+  border: none;
+  padding: 0.7em;
+}
+
+.icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12em;
+  margin-right: 2.4em;
+}
+
+.taskTitle {
+  margin-top: 1em;
+  margin-right: 50%;
+}
+
+@media only screen and (max-width: 650px) {
+  .todo-container {
+    width: auto;
+  }
+
+  .taskTitle {
+    margin-right: 30%;
+  }
+}
